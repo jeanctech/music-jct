@@ -1,13 +1,429 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enjambre - Discografía Visual</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+</style>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <header>
+      <h1>ENJAMBRE<span>🐝</span></h1>
+      <p class="subtitle">
+        <span>🗿 ~</span> Discografía Visual — Un recorrido por álbumes, años y contexto
+      </p>
+    </header>
+
+    <div class="discografia">
+      <!-- Álbum 1 -->
+      <div class="album-card">
+        <div class="album-art">CONSUELO EN DOMINGO</div>
+        <div class="album-info">
+          <h2 class="album-title">Consuelo en domingo</h2>
+          <div class="album-year">2005</div>
+
+          <h3>Tracklist</h3>
+          <ul class="tracklist">
+            <li>1. Extraviado</li>
+            <li>2. Biografía</li>
+            <li>3. Momento</li>
+            <li>4. Grave edad</li>
+            <li>5. Atentado</li>
+            <li>6. El hombre del mañana</li>
+            <li>7. El beso del payaso</li>
+            <li>8. Gente de juguete</li>
+            <li>9. Ojos tristes</li>
+            <li>10. Mujer en la caja</li>
+            <li>11. Disfraz de carne y hueso</li>
+          </ul>
+
+          <h3>Contexto</h3>
+          <p class="contexto">
+            Álbum debut con un sonido más experimental y crudo, grabado cuando la banda aún residía en California.
+          </p>
+
+          <div class="frase-iconica">
+            <i class="fas fa-quote-left"></i> "No soy quien era ayer, mi biografía hoy vuelvo a escribir" (Biografía)
+          </div>
+
+          <div class="links">
+            <a href="#" class="btn spotify"
+              ><i class="fab fa-spotify"></i> Spotify</a
+            >
+            <a href="#" class="btn youtube"
+              ><i class="fab fa-youtube"></i> YouTube</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Álbum 2 -->
+      <div class="album-card">
+        <div class="album-art">EL SEGUNDO ES FELINO</div>
+        <div class="album-info">
+          <h2 class="album-title">El Segundo Es Felino</h2>
+          <div class="album-year">2008</div>
+
+          <h3>Tracklist</h3>
+          <ul class="tracklist">
+            <li>1. Untitled</li>
+            <li>2. Segundo tema</li>
+            <li>3. Manía cardíaca</li>
+            <li>4. Fe, línea recta</li>
+            <li>5. Ausencia de cocina</li>
+            <li>6. Néctar</li>
+            <li>7. Impaciente</li>
+            <li>8. Las 12am y su mascota</li>
+            <li>9. Suspira</li>
+            <li>10. Impacto</li>
+            <li>11. De nadie</li>
+            <li>12. Reddish Sky</li>
+            <li>13. Madame Siamés</li>
+            <li>14. Espalda de bronce</li>
+            <li>15. Último tema</li>
+            <li>16. Impacto (con Lo Blondo)</li>
+          </ul>
+
+          <h3>Contexto</h3>
+          <p class="contexto">
+            El disco que los consolidó en México, introduciendo su característico estilo de rock retro con tintes psicodélicos.
+          </p>
+
+          <div class="frase-iconica">
+            <i class="fas fa-quote-left"></i> "Busco el impacto de un cuerpo extraño sobre mi corazón" (Impacto)
+          </div>
+
+          <div class="links">
+            <a href="#" class="btn spotify"
+              ><i class="fab fa-spotify"></i> Spotify</a
+            >
+            <a href="#" class="btn youtube"
+              ><i class="fab fa-youtube"></i> YouTube</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Álbum 3 -->
+      <div class="album-card">
+        <div class="album-art">DALTÓNICO</div>
+        <div class="album-info">
+          <h2 class="album-title">Daltónico</h2>
+          <div class="album-year">2010</div>
+
+          <h3>Tracklist</h3>
+          <ul class="tracklist">
+            <li>1. Cobarde</li>
+            <li>2. Visita</li>
+            <li>3. Cambiante</li>
+            <li>4. Dulce soledad</li>
+            <li>5. Sanguijuela</li>
+            <li>6. Eliza mi hortaliza</li>
+            <li>7. Makin' it back</li>
+            <li>8. Madrugada</li>
+            <li>9. Instruso</li>
+            <li>5. La duda</li>
+            <li>6. Enemigo</li>
+            <li>7. Ciencia de la lluvia</li>
+            <li>8. ¿Cómo le llevo serenata?</li>
+          </ul>
+
+          <h3>Contexto</h3>
+          <p class="contexto">
+             Su álbum más popular, explorando temas de soledad y melancolía bajo una producción más pulida.
+          </p>
+
+          <div class="frase-iconica">
+            <i class="fas fa-quote-left"></i> "Dulce soledad, tú me acompañas cuando todos se van" (Dulce Soledad)
+          </div>
+
+          <div class="links">
+            <a href="#" class="btn spotify"
+              ><i class="fab fa-spotify"></i> Spotify</a
+            >
+            <a href="#" class="btn youtube"
+              ><i class="fab fa-youtube"></i> YouTube</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Álbum 4 -->
+      <div class="album-card">
+        <div class="album-art">ENJAMBRE Y LOS <br> HUÉSPEDES DEL ORBE</div>
+        <div class="album-info">
+          <h2 class="album-title">Enjambre y los Huéspedes del Orbe</h2>
+          <div class="album-year">2012</div>
+
+          <h3>Tracklist</h3>
+          <ul class="tracklist">
+            <li>1. Reflejo</li>
+            <li>2. Cámara de faltas</li>
+            <li>3. Homografobia</li>
+            <li>4. Falacia</li>
+            <li>5. La ley y ladilla</li>
+            <li>6. Viceversa</li>
+            <li>7. El ordinario</li>
+            <li>8. ... del orbe</li>
+            <li>9. Somos ajenos</li>
+            <li>10. Alicia</li>
+            <li>11. Maleable</li>
+            <li>12. Elemento</li>
+            <li>13. Transeúnte</li>
+            <li>14. Egohisteria</li>
+          </ul>
+
+          <h3>Contexto</h3>
+          <p class="contexto">
+           Un concepto inspirado en la ciencia ficción y el cine de los años 50, con sonidos espaciales y sintetizadores analógicos.
+          </p>
+
+          <div class="frase-iconica">
+            <i class="fas fa-quote-left"></i> Eres un elemento que no puedo controlar, pero que me hace falta para respirar" (Elemento)
+          </div>
+
+          <div class="links">
+            <a href="#" class="btn spotify"
+              ><i class="fab fa-spotify"></i> Spotify</a
+            >
+            <a href="#" class="btn youtube"
+              ><i class="fab fa-youtube"></i> YouTube</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Álbum 5 -->
+      <div class="album-card">
+        <div class="album-art">PROAÑO</div>
+        <div class="album-info">
+          <h2 class="album-title">Proaño</h2>
+          <div class="album-year">2014</div>
+
+          <h3>Tracklist</h3>
+          <ul class="tracklist">
+            <li>1. Argentum</li>
+            <li>2. Hematófago</li>
+            <li>3. En deuda</li>
+            <li>4. Sábado perpetuo</li>
+            <li>5. Tulipanes</li>
+            <li>6. Rosa náutica (Del piso)</li>
+            <li>7. Dama demencia</li>
+            <li>8. Por esta razón</li>
+            <li>9. Nueve</li>
+            <li>10. Semiluna</li>
+            <li>11. Hombre elefante</li>
+            <li>12. Tras la puerta</li>
+            <li>13. Calzada proaño</li>
+            <li>14. De paso</li>
+          </ul>
+
+          <h3>Contexto</h3>
+          <p class="contexto">
+            Un álbum que rinde homenaje a su ciudad natal (Fresnillo, Zacatecas), con un sonido más rockero y garagero.
+          </p>
+
+          <div class="frase-iconica">
+            <i class="fas fa-quote-left"></i> "Por esta razón te dejo libre, para que seas feliz aunque no sea conmigo" (Por Esta Razón)
+          </div>
+
+          <div class="links">
+          <a href="#" class="btn spotify"
+              ><i class="fab fa-spotify"></i> Spotify</a
+            >
+            <a href="#" class="btn youtube"
+              ><i class="fab fa-youtube"></i> YouTube</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Álbum 6 -->
+      <div class="album-card">
+        <div class="album-art">IMPERFECTO EXTRAÑO</div>
+        <div class="album-info">
+          <h2 class="album-title">Imperfecto Extraño</h2>
+          <div class="album-year">2017</div>
+          <h3>Tracklist</h3>
+          <ul class="tracklist">
+            <li>1. Obertura</li>
+            <li>2. Celeste</li>
+            <li>3. En tu día</li>
+            <li>4. Tercer tipo</li>
+            <li>5. Luces de periferia</li>
+            <li>6. Detéstame</li>
+            <li>7. Nudo</li>
+            <li>8. El futuro</li>
+            <li>9. Y la esperanza</li>
+            <li>10. Amanéceme</li>
+            <li>11. Vida en el espejo</li>
+            <li>12. Desenlace</li>
+          </ul>
+
+          <h3>Contexto</h3>
+          <p class="contexto">
+            Exploración de sonidos más maduros y reflexivos sobre la existencia y el paso del tiempo.
+          </p>
+
+          <div class="frase-iconica">
+            <i class="fas fa-quote-left"></i> "Eres un tercer tipo de persona, de las que no se olvidan aunque pase el tiempo" (Tercer Tipo)
+          </div>
+
+          <div class="links">
+            <a href="#" class="btn spotify"
+              ><i class="fab fa-spotify"></i> Spotify</a
+            >
+            <a href="#" class="btn youtube"
+              ><i class="fab fa-youtube"></i> YouTube</a
+            >
+          </div>
+        </div>
+      </div>
+    
+      <!-- Álbum 7 -->
+      <div class="album-card">
+        <div class="album-art">PRÓXIMOS PRÓJIMOS</div>
+        <div class="album-info">
+          <h2 class="album-title">Próximos Prójimos</h2>
+          <div class="album-year">2021</div>
+          <h3>Tracklist</h3>
+          <ul class="tracklist">
+            <li>1. Próximos prójimos</li>
+            <li>2. Luz en las manos</li>
+            <li>3. Relámpago</li>
+            <li>4. Divergencia</li>
+            <li>5. La batalla</li>
+            <li>6. Extraños días de abril</li>
+            <li>7. El Derrumbe</li>
+            <li>8. Secuaz</li>
+            <li>9. Desconfía</li>
+            <li>10. Adormecido</li>
+            <li>11. Alter ego</li>
+            <li>12. Siempre tú</li>
+            <li>13. Dolores</li>
+          </ul>
+
+          <h3>Contexto</h3>
+          <p class="contexto">
+            Exploración de sonidos más maduros y reflexivos sobre la existencia y el paso del tiempo.
+          </p>
+
+          <div class="frase-iconica">
+            <i class="fas fa-quote-left"></i> Todo se derrumba, pero siempre quedas tú" (El Derrumbe)
+          </div>
+
+          <div class="links">
+            <a href="#" class="btn spotify"
+              ><i class="fab fa-spotify"></i> Spotify</a
+            >
+            <a href="#" class="btn youtube"
+              ><i class="fab fa-youtube"></i> YouTube</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Álbum 8 -->
+      <div class="album-card">
+        <div class="album-art">AMBROSÍA - EP</div>
+        <div class="album-info">
+          <h2 class="album-title">Ambrosía - EP</h2>
+          <div class="album-year">2021</div>
+          <h3>Tracklist</h3>
+          <ul class="tracklist">
+            <li>1. Ambrosia</li>
+            <li>2. Crash</li>
+            <li>3. Delorean</li>
+            <li>4. Upgrade</li>
+          </ul>
+
+          <h3>Contexto</h3>
+          <p class="contexto">
+            Un EP grabado íntegramente en inglés, experimentando con ritmos más bailables y sintetizadores modernos.
+          </p>
+
+          <div class="frase-iconica">
+            <i class="fas fa-quote-left"></i> "Looking for the nectar in the middle of the storm" (Ambrosía)
+          </div>
+
+          <div class="links">
+            <a href="#" class="btn spotify"
+              ><i class="fab fa-spotify"></i> Spotify</a
+            >
+            <a href="#" class="btn youtube"
+              ><i class="fab fa-youtube"></i> YouTube</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Álbum 7 -->
+      <div class="album-card">
+        <div class="album-art">NOCHES DE SALÓN</div>
+        <div class="album-info">
+          <h2 class="album-title">Noches de Salón</h2>
+          <div class="album-year">2023</div>
+          <h3>Tracklist</h3>
+          <ul class="tracklist">
+            <li>1. Enemigo</li>
+            <li>2. Cámara de faltas</li>
+            <li>3. Visita</li>
+            <li>4. El vacío</li>
+            <li>5. Elemento</li>
+            <li>6. De nadie</li>
+            <li>7. Detéstame</li>
+            <li>8. Somos ajenos</li>
+            <li>9. Manía cardíaca</li>
+            <li>10. El ordinario</li>
+            <li>11. Tengo la piel cansada de La tarde</li>
+            <li>12. Tulipanes</li>
+            <li>13. Sábado perpetuo</li>
+            <li>14. Necrópolis</li>
+            <li>15. El Derrumbe</li>
+          </ul>
+
+          <h3>Contexto</h3>
+          <p class="contexto">
+            Álbum conceptual de reversiones acústicas inspiradas en ritmos latinoamericanos clásicos como el bolero, danzón y son cubano.
+          </p>
+
+          <div class="frase-iconica">
+            <i class="fas fa-quote-left"></i> "Noches de salón, donde el tiempo se detiene al ritmo de un bolero" (Contexto del álbum)
+          </div>
+
+          <div class="links">
+            <a href="#" class="btn spotify"
+              ><i class="fab fa-spotify"></i> Spotify</a
+            >
+            <a href="#" class="btn youtube"
+              ><i class="fab fa-youtube"></i> YouTube</a
+            >
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+    </div>
+    </div>
+
+    <footer>
+      <p>
+        🎵 Este sitio es un tributo hecho con <i class="fas fa-brain"></i> y
+        <i class="fas fa-heart"></i> por <strong>Music JCT</strong>
+      </p>
+      <p style="margin-top: 10px; color: #444">
+        Prototipo con data de prueba — La información real se agregará
+        posteriormente
+      </p>
+    </footer>
   </body>
 </html>
