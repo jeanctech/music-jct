@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #0a0a0a;
+  background-color: #0a0a0afa;
   color: #f0f0f0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
@@ -23,7 +23,7 @@ header {
 
 h1 {
   font-size: 3rem;
-  color: #e63946;
+  color: #ca3844;
   margin-bottom: 10px;
   letter-spacing: 2px;
   font-family: "Tagesschrift", system-ui;
@@ -33,7 +33,7 @@ h1 {
 
 .subtitle {
   font-size: 1.2rem;
-  color: #aaa;
+  color: #a79898;
   font-family: "Tagesschrift", system-ui;
   font-weight: 400;
   font-style: bold;
@@ -57,17 +57,121 @@ h1 {
 
 .album-card:hover {
   transform: translateY(-5px);
-  border-color: #e63946;
+  border-color: #e639478e;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-.album-art {
+.album-art_one {
   height: 200px;
-  background: linear-gradient(45deg, #222, #444);
+  background: linear-gradient(45deg, #c8b437, #416ec3);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #999;
+  color: #292828;
+  font-size: 1.5rem;
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.album-art_two {
+  height: 200px;
+  background: linear-gradient(45deg, #a52323, #dacab3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #292828;
+  font-size: 1.5rem;
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.album-art_three {
+  height: 200px;
+  background: linear-gradient(45deg, #1e9252, #c76b20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #292828;
+  font-size: 1.5rem;
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.album-art_four {
+  height: 200px;
+  background: linear-gradient(45deg, #5a76a5, #d93b5c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #292828;
+  font-size: 1.5rem;
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.album-art_five {
+  height: 200px;
+  background: linear-gradient(45deg, #8d628f, #ba9a85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #292828;
+  font-size: 1.5rem;
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.album-art_six {
+  height: 200px;
+  background: linear-gradient(45deg, #ea632c, #462e90);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #292828;
+  font-size: 1.5rem;
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.album-art_seven {
+  height: 200px;
+  background: linear-gradient(45deg, #73bde2, #d34669);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #292828;
+  font-size: 1.5rem;
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.album-art_eight {
+  height: 200px;
+  background: linear-gradient(45deg, #3c3f77, #a1cfaa);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #292828;
+  font-size: 1.5rem;
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.album-art_nine {
+  height: 200px;
+  background: linear-gradient(45deg, #bb2e2d, #ffa220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #292828;
   font-size: 1.5rem;
   font-family: "Tagesschrift", system-ui;
   font-weight: 400;
@@ -95,7 +199,7 @@ h1 {
 }
 
 h3 {
-  color: #ddd;
+  color: #dbd7d7ee;
   margin: 15px 0 8px 0;
   font-size: 1.1rem;
   border-bottom: 1px solid #333;
@@ -126,7 +230,7 @@ h3 {
 
 .frase-iconica {
   background: rgba(230, 57, 70, 0.1);
-  border-left: 3px solid #e63946;
+  border-left: 3px solid #7455139a;
   padding: 10px 15px;
   margin: 15px 0;
   color: #ffffffd7;
@@ -153,13 +257,13 @@ h3 {
   display: flex;
   align-items: center;
   gap: 5px;
-    font-family: "Tagesschrift", system-ui;
+  font-family: "Tagesschrift", system-ui;
   font-weight: 400;
   font-style: bold;
 }
 
 .btn:hover {
-  background-color: #534d4de0;
+  background-color: #3c7774b2;
 }
 
 .links {
@@ -167,20 +271,25 @@ h3 {
 }
 
 .spotify {
-  border: #807474c2 solid 0.1rem;
+  border: #ffffff34 solid 0.1rem;
   background: #1db954ab;
 }
 .youtube {
-  border: #6d6767b9 solid 0.1rem;
-  background: #ff0000bd;
+  border: #ffffff34 solid 0.1rem;
+  background: #db2424bd;
+}
+
+#p-i {
+  margin: 0.2rem;
+  color: #725b5b;
 }
 
 footer {
   text-align: center;
   margin-top: 60px;
   padding: 20px;
-  color: #666;
-  border-top: 1px solid #222;
+  color: #918d8dd5;
+  border-top: 1px solid #302f2fad;
   font-size: 0.9rem;
   font-family: "Tagesschrift", system-ui;
   font-weight: 400;
