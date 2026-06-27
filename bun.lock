@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "music",
+      "name": "music-jct",
       "devDependencies": {
         "vite": "^7.2.4",
       },
